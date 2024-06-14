@@ -1,7 +1,7 @@
 name: easy_bmi_calculator
 description: "This is an easy and very simple calculator to calculate your Body Mass Index (BMI)."
 version: 0.0.1
-homepage: https://github.com/ALI-SAMPSON/bmi_calculator.git
+homepage: https://github.com/ALI-SAMPSON/easy_bmi_calculator.git
 
 environment:
   sdk: '>=3.3.4 <4.0.0'
