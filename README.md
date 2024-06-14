@@ -12,17 +12,15 @@ This BMI package offers a comprehensive method to calculate the Body Mass Index 
 
 ### Methods
 
-#### `computeBMI()`
+#### `calculateBMI()`
 - **Description**: Calculates the Body Mass Index (BMI) using the formula: BMI = kg/m².
 - **Returns**: The computed BMI value as a double.
 
-#### `interpretBMI()`
-- **Description**: Provides an interpretation of the BMI value.
-  - For individuals outside the age range of 5-19 years, it uses general BMI categories.
-  - For children and teenagers aged 5-19, it references BMI-for-age percentiles data, accounting for gender.
-- **Returns**: A string interpretation of the BMI.
+#### `formattedBMI()`
+- **Description**: Forma the BMI value.
+- **Returns**: A string formatted output of the BMI.
 
-### Interpretation Guidelines
+### Assessment Criteria
 
 #### For Adults (outside the age range of 5-19 years)
 - **Severely underweight**: BMI < 16
